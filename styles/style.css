@@ -232,3 +232,17 @@ footer {
   }
   
 }
+
+.grid-container{
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 20px;
+  justify-content: center;
+
+  grid-template-rows: masonry;
+}
+
+.grid-item{
+  width: 230px;
+}
